@@ -1,0 +1,14 @@
+{
+  "name": "ful-blockchain-voting-system",
+  "version": "1.0.0",
+  "description": "Blockchain voting system for FUL",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js"
+  },
+  "dependencies": {
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
